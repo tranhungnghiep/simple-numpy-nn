@@ -1,5 +1,5 @@
 # Simple Neural Networks with NumPy
-This is a neural networks implementation purely in NumPy, written for educational purpose with simple design choices and extensive comments. It demonstrates the fundamentals of neural networks, including forward-backward propagation and modular architecture design, without using high-level libraries like TensorFlow or PyTorch.
+This is a simple implementation of neural networks purely in NumPy, written for educational purposes with illustrative design choices and extensive comments. It demonstrates the fundamentals of neural networks, including forward-backward propagation and modular architecture design, without using high-level libraries like TensorFlow or PyTorch.
 
 ## Features
 - Forward and Backward computation: Implements basic forward and backward computation with chain rule.
@@ -15,14 +15,14 @@ This is a neural networks implementation purely in NumPy, written for educationa
 
 ### Installation
 Clone the repository to your local machine:
-```
+```bash
 git clone https://github.com/tranhungnghiep/simple-numpy-nn.git
 cd simple-numpy-nn
 ```
 
 ### Usage
 Run the network training using the following command:
-```
+```bash
 python main.py --n_features 3 --d_hidden 20 --n_examples 10 --num_iterations 100000 --learning_rate 0.01 --loss_function cross_entropy
 ```
 
